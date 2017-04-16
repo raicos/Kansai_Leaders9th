@@ -23,6 +23,10 @@ class ViewController: UIViewController {
     @IBAction func buttonPush(sender:UIButton){
         sender.backgroundColor = UIColor.blue
     }
+    
+    @IBAction func buttonDown(sender:UIButton){
+        sender.backgroundColor = UIColor.yellow
+    }
 
 
 }
